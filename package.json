@@ -1,0 +1,31 @@
+{
+  "name": "desafiopassport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianespa/desafioPassport.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julianespa/desafioPassport/issues"
+  },
+  "homepage": "https://github.com/julianespa/desafioPassport#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "ejs": "^3.1.7",
+    "express": "^4.18.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.3.2",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0"
+  }
+}
